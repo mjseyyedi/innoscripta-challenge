@@ -10,11 +10,20 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.0.5",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.15",
+    "@mui/material": "^5.14.15",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "guardian-js": "^5.0.0",
+    "mui-daterange-picker": "^1.0.5",
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "styled-components": "^6.1.0"
+    "styled-components": "^6.1.0",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/node": "^20",
